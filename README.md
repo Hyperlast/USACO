@@ -1,11 +1,13 @@
 # USACO TASKS
 Тренировъчни задачи от USACO guides чрез които да си припомня материалът по СДА/СДП.
 ---
-### APARTMENTS - https://cses.fi/problemset/task/1084
+## Uknown Categories
+Директорията съдържа задачи за които не е намерена определената категория или раздел на която принадлежат
+## Bronze
+Директорията съдържа задачи от USACO Bronze
 ---
-### Distinct Numbers - https://cses.fi/problemset/task/1621
+Future development for USACO задачи
+## Silver
+## Gold
 ---
-### Concert Tickets - https://cses.fi/problemset/task/1091
----
-### TRAFFIC LIGHTS - https://cses.fi/problemset/task/1163
----
+
