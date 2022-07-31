@@ -6,6 +6,7 @@
 #include <queue>
 #include <algorithm>
 #include <set>
+#include <utility>
 
 void mySwap(int* a, int* b){  
     int  temp = *a;
@@ -43,6 +44,14 @@ void Solution(){
     if(X1 <= Y1 && Y1 <= X2 && X2 <= Y1){ std::cout << (Y2 - X1) << "\n"; return;}//CASE5
     if(X2 <= Y1){ std::cout << ((Y2 - Y1) + (X2 - X1)) << "\n"; return;}//CASE6
     
+}
+
+void Solution_optimized(){
+    int a, b, c, d;
+    std::cin >> a >> b >> c >> d;
+    int colored = (b - a) + (d - c);
+    int intersect = std::max(std::min(b,d) - std::max(a,c),0); 
+    std::cout << colored - intersect << std::endl;
 }
 
 int main(){
